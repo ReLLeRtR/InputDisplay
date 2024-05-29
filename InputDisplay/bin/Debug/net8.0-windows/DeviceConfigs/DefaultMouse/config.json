@@ -1,0 +1,10 @@
+[ "Default" ][THRESHHOLD:0][DISPLAYTYPE:ONRELEASEONLY][INTERPRETATIONTYPE:ICON][TEXTSUBCOLOR:#00FFFF][TINTWHITESUBCOLOR:#00FFFF][VALUE:1][=],
+[ID:0]["LMB"][ICON:"lmb.png"],
+[ID:1]["RMB"][ICON:"rmb.png"],
+[ID:2]["MMB"][ICON:"mmb.png"],
+[ID:3]["MS4"][INTERPRETATIONTYPE:TEXT],
+[ID:4]["MS5"][INTERPRETATIONTYPE:TEXT],
+[ID:5]["SCRLUP"][ICON:"scroll up.png"],
+[ID:5]["SCRLDN"][VALUE:-1][ICON:"scroll down.png"],
+[ID:6]["SCRLLT"][ICON:"scroll left.png"],
+[ID:6]["SCRLRT"][VALUE:-1][ICON:"scroll right.png"]

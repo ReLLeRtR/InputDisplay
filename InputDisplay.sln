@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputDisplay", "InputDisplay\InputDisplay.csproj", "{8A951B66-8C24-488B-9B5A-30545009C27A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Debug|x64.Build.0 = Debug|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Release|x64.Build.0 = Release|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A951B66-8C24-488B-9B5A-30545009C27A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {315626C3-48E2-4094-B057-AC2CD5563BC2}
+	EndGlobalSection
+EndGlobal

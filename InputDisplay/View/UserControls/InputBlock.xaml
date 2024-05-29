@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="InputDisplay.View.UserControls.InputBlock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:InputDisplay.View.UserControls"
+             xmlns:tint="clr-namespace:InputDisplay.View.ShaderEffects"
+             mc:Ignorable="d"
+             Height="75">
+    <Viewbox MinWidth ="50" MaxWidth="{Binding BlockWidth, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, FallbackValue=75}" Height="{Binding BlockHeight, UpdateSourceTrigger=PropertyChanged, Mode=OneWay, FallbackValue=75}">
+        <Grid>
+            <Border>
+                <Image Name="buttonIcon" HorizontalAlignment="Center" VerticalAlignment="Center" Height ="75" Source="{Binding DisplayIcon, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" RenderTransformOrigin="0.5, 0.5">
+                    <Image.Effect>
+                        <tint:TintEffect TintWhite="{Binding TintWhiteColor, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" TintBlack="{Binding TintBlackColor, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"/>
+                    </Image.Effect>
+                    <Image.RenderTransform>
+                        <RotateTransform Angle="{Binding Rotation, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"/>
+                    </Image.RenderTransform>
+                </Image>
+                <Border.Effect>
+                    <DropShadowEffect
+                        ShadowDepth="0"
+                        Color="{Binding ShadowColor, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"
+                        Opacity="1"
+                        BlurRadius="5"
+                        RenderingBias="Performance"/>
+                </Border.Effect>
+            </Border>
+            <Border MaxHeight="{Binding TextHeight, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}">
+                <Viewbox Stretch="Uniform" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxWidth = "75">
+                    <TextBlock Name="buttonName" Text="{Binding DisplayText, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Foreground="{Binding TextColor, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" TextAlignment="Center" HorizontalAlignment="Center" FontSize="50" VerticalAlignment="Center" TextWrapping="WrapWithOverflow"/>
+                <Viewbox.Effect>
+                    <DropShadowEffect
+                                    ShadowDepth="0"
+                                    Color="{Binding ShadowColor, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"
+                                    Opacity="1"
+                                    BlurRadius="5"
+                                    RenderingBias="Performance"/>
+                </Viewbox.Effect>
+                </Viewbox>
+            </Border>
+        </Grid>
+    </Viewbox>
+</UserControl>

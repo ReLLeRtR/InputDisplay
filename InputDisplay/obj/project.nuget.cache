@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "t2nxH168tE1yKH8O9P49EkuX2KfQVCLVOUeIq4urcYMR6ge3hv6hc2TN1wGHom3Y/Ph/I9H2pRNG7k8EViEACQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\romle\\Desktop\\Main\\Projects\\InputDisplay\\InputDisplay\\InputDisplay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\romle\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\romle\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
